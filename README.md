@@ -29,3 +29,11 @@ ofxHapPlayerのtest.
 	から。
 
 
+*	複数fileを切り替えながら使用したい場合。  
+	都度、対象をplay()で起動しても十分速かったが、先頭にblock noiseが乗る。  
+	そこで、ofApp::setup()でplay()までしておき、ofApp::update()及び、ofApp::draw()
+	では、対象objectのみ、update(), draw()すればOK。
+	これで、十分速く、ノイズもなく再生可能であった。
+	
+
+
