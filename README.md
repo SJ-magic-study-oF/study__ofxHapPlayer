@@ -36,4 +36,10 @@ ofxHapPlayerのtest.
 	これで、十分速く、ノイズもなく再生可能であった。
 	
 
+*	codecをinstallすると、どこに保存されるのか。  
 
+	http://bison.jp/macosx/872.html  
+	現段階での動画再生用 無料 Codecまとめ的なものは以下の四つです。
+	それぞれ、Libraryフォルダ下QuickTimeフォルダ( /Library/QuickTime or  ~/Library/QuickTime ) に QuickTimeコンポーネントを入れたり、
+	Applications フォルダ ( /Applications )にアプリを入れたり、Internetプラグインフォルダ (/Library/Internet Plug-Ins )をプラグインを入れたりします。
+	
