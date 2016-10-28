@@ -18,9 +18,9 @@ ffmpegを使って、HAP codecのvideoに変換する
 		ffmpeg -formats
 	
 	do convert
-		HAP
-			ffmpeg -i test.mp4 -vcodec hap -format hap_q out.mov
 		HAP Q
+			ffmpeg -i test.mp4 -vcodec hap -format hap_q out.mov
+		HAP
 			ffmpeg -i test.mp4 -vcodec hap -format hap   out.mov 
 	
 	HAP codec variation
